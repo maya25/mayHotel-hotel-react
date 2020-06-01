@@ -1,0 +1,18 @@
+.site-box {
+  padding: 10px;
+  margin:0 auto;
+  &.content {
+    padding: 20px 10px;
+    background-color: #fff;
+    border-radius: 7px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+  }
+}
+
+.site-box-fluid {
+  display: flex;
+  > * {
+    flex: 1;
+  }
+}
